@@ -22,12 +22,20 @@ Built with:
 
 ## Installation and Setup
 1. Clone the repository
-'
+```
 git clone https://github.com/yourusername/aesthetic-imagegen-app.git
 cd aesthetic-imagegen-app
-'
-3. Create and activate a virtual environment (optional)
-4. Install dependencies
+```
+2. Create and activate a virtual environment (optional)
+```
+python -m venv venv
+venv\Scripts\activate   # On Windows
+source venv/bin/activate  # On Mac/Linux
+```
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
 
 ---
 
@@ -40,9 +48,9 @@ Copy and paste it into the sidebar of the app when prompted
 ---
 
 ## Running the App
-'''
+```
 streamlit run app.py
-'''
+```
 
 ---
 
@@ -52,4 +60,5 @@ Enter or modify the text prompt (default: “Make this image aesthetically pleas
 Click Generate Image
 The app sends your input to Gemini 2.5 Flash Image (Nano Banana)
 The generated aesthetic image is displayed next to the original
+
 
