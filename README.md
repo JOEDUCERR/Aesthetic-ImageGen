@@ -55,10 +55,10 @@ streamlit run app.py
 ---
 
 ## How It Works
-Upload an image
-Enter or modify the text prompt (default: “Make this image aesthetically pleasing...”)
-Click Generate Image
-The app sends your input to Gemini 2.5 Flash Image (Nano Banana)
-The generated aesthetic image is displayed next to the original
+1. Upload an image
+2. Enter or modify the text prompt (default: “Make this image aesthetically pleasing...”)
+3. Click Generate Image
+4. The app sends your input to Gemini 2.5 Flash Image (Nano Banana)
+5. The generated aesthetic image is displayed next to the original
 
-
+---
