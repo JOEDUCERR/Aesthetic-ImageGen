@@ -1,4 +1,5 @@
 # Aesthetic Image Generator App
+https://aesthetic-imagegen.streamlit.app/
 ## About
 Aesthetic ImageGen App is a simple yet powerful Streamlit-based web application that enhances your uploaded images using Google’s Gemini 2.5 Flash Image (Nano Banana) model.
 It allows you to input creative prompts like “Make this image aesthetically pleasing…” and instantly generate an improved, visually appealing version of your image.
@@ -62,3 +63,4 @@ streamlit run app.py
 5. The generated aesthetic image is displayed next to the original
 
 ---
+
